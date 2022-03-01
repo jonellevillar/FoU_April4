@@ -59,9 +59,21 @@ style_duo_accent(
 ```{r}
 #1Slide of twin astronauts
 
+#“After year in space, astronaut Scott Kelly no longer has same DNA as identical twin,” the headline of a story on the Today show’s website, published Thursday, declared. Seven percent of his DNA, the story says, “has not returned to normal since he returned from space.”
+
+
 ```
 
+---
 
+background-image: url(img/Kelly1.jpg)
+background-position: cover
+background-size:930px
+
+
+class:left, top 
+
+---
 
 ```{r}
 #Objective: To identify the common and specific DNA methylation marks associated with antipsychotic drugs administered for the treatment of psychosis in SCZ, BPD and MDD
