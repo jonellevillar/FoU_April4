@@ -75,6 +75,19 @@ class:left, top
 
 ---
 
+
+Does anyone have any ideas of what was happening here?  Some of you have children, or grandchildren who will be going to space - so it would be great to know.  Maybe we can't answer it because we don't know yet, or don't have the technology yet to investigate it.  
+
+---
+
+AP medications - it seems that we still don't understand how these medications are working. It seems promising however, that genetic and epigenetic tools are providing insights
+
+---
+
+Look over Noise-driving cellular heterogeneity in circadian periodicity, Yan Li
+
+---
+
 ```{r}
 #Objective: To identify the common and specific DNA methylation marks associated with antipsychotic drugs administered for the treatment of psychosis in SCZ, BPD and MDD
 
