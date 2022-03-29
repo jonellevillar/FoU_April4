@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>April presentation with FoU</title>
+    <title>Monthly Meeting of FoU</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Jonelle Villar" />
+    <meta name="author" content="Jonelle Villar - PhD Candidate" />
     <meta name="date" content="2024-04-04" />
     <script src="FoU_pres_files/header-attrs/header-attrs.js"></script>
+    <link href="FoU_pres_files/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="FoU_pres_files/tile-view/tile-view.js"></script>
     <script src="FoU_pres_files/htmlwidgets/htmlwidgets.js"></script>
     <link href="FoU_pres_files/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
     <script src="FoU_pres_files/datatables-binding/datatables.js"></script>
@@ -23,9 +25,9 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# April presentation with FoU
+# Monthly Meeting of FoU
 ## Dept. of Clinical Science II <br/> University of Bergen <br/>
-### Jonelle Villar
+### Jonelle Villar - PhD Candidate
 ### April 4, 2024
 
 ---
@@ -35,8 +37,108 @@ class: center, middle, inverse, title-slide
 
 
 
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 250px;
+height: 250px;
+z-index: 0;
+background-image: url(slides/UiBlogoMED_gray_v_Eng.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:2em;right:2em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+&lt;style type="text/css"&gt;
+
+.small { 
+  font-size: 0.75em
+}  
+
+.bitty { 
+    font-size: 1.25em;
+}
+
+.enlarge { 
+    font-size: 1.5em;
+}
+
+.fade {
+  opacity: 0.66;
+}
+
+&lt;/style&gt;
+
+---
+
+class:hide_logo
+
+###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder**&lt;br&gt;&lt;br&gt;
+
+.large[.right[
+**Principal Supervisor**: Stéphanie Le Hellard, UiB&lt;br&gt;&lt;br&gt;
+**Co-Supervisors**: Anne-Kristin Stavrum, UiB,&lt;br&gt;&lt;br&gt;
+                  Tetyana Zayats, Broad Institute, USA&lt;br&gt;&lt;br&gt;
+                  Ingrid Melle, UiO&lt;br&gt;&lt;br&gt;&lt;br&gt;
+                  July 1, 2019 - June 30, 2023
+]]              
+
+
+---
+
+###Plan for this talk &lt;br&gt; &lt;br /&gt;
+###- Objectives &lt;br /&gt;
+###- Methods &lt;br /&gt;
+###- Status of project &lt;br /&gt;
+
+---
+
+###**General aim of this PhD work**
+.enlarge[
+ - To identify epigenetic marks associated with psychosis and treatment effects. &lt;br /&gt;
+]
+
+###**Specific aims**
+.bitty[
+- **Paper 1**: Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? &lt;br&gt; &lt;br /&gt;
+- **Paper 2**: What common and specific DNAm marks are seen following antipsychotic drug treatment for psychosis? &lt;br&gt; &lt;br /&gt;
+- **Paper 3**: Do we see disorder specific DNAm in SCZ vs. BPD? &lt;br&gt; &lt;br /&gt;
+
+]  
+
+---
 
 ## Introduction 
+
+background-image: url(slides/Kelly1.jpeg)
+background-position:50% 50%
+background-size: 200px
+
+
+---
 
 
 ```r
@@ -53,6 +155,19 @@ background-size:930px
 
 
 class:left, top 
+
+---
+
+
+Does anyone have any ideas of what was happening here?  Some of you have children, or grandchildren who will be going to space - so it would be great to know.  Maybe we can't answer it because we don't know yet, or don't have the technology yet to investigate it.  
+
+---
+
+AP medications - it seems that we still don't understand how these medications are working. It seems promising however, that genetic and epigenetic tools are providing insights
+
+---
+
+Look over Noise-driving cellular heterogeneity in circadian periodicity, Yan Li
 
 ---
 
@@ -412,8 +527,8 @@ exclude: false
 DT::datatable(head(mtcars), fillContainer = FALSE, options = list(pageLength = 4))
 ```
 
-<div id="htmlwidget-27d7504d87d5205c2a6d" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-27d7504d87d5205c2a6d">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant"],[21,21,22.8,21.4,18.7,18.1],[6,6,4,6,8,6],[160,160,108,258,360,225],[110,110,93,110,175,105],[3.9,3.9,3.85,3.08,3.15,2.76],[2.62,2.875,2.32,3.215,3.44,3.46],[16.46,17.02,18.61,19.44,17.02,20.22],[0,0,1,1,0,1],[1,1,1,0,0,0],[4,4,4,3,3,3],[4,4,1,1,2,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>wt<\/th>\n      <th>qsec<\/th>\n      <th>vs<\/th>\n      <th>am<\/th>\n      <th>gear<\/th>\n      <th>carb<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":4,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9,10,11]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-a0a34ef3ee75e8fdce71" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a0a34ef3ee75e8fdce71">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant"],[21,21,22.8,21.4,18.7,18.1],[6,6,4,6,8,6],[160,160,108,258,360,225],[110,110,93,110,175,105],[3.9,3.9,3.85,3.08,3.15,2.76],[2.62,2.875,2.32,3.215,3.44,3.46],[16.46,17.02,18.61,19.44,17.02,20.22],[0,0,1,1,0,1],[1,1,1,0,0,0],[4,4,4,3,3,3],[4,4,1,1,2,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>wt<\/th>\n      <th>qsec<\/th>\n      <th>vs<\/th>\n      <th>am<\/th>\n      <th>gear<\/th>\n      <th>carb<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":4,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9,10,11]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 layout: true
