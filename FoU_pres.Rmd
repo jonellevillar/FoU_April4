@@ -119,7 +119,6 @@ class:hide_logo
 
 ###Plan for this talk <br> <br />
 ###- Objectives <br />
-###- Methods <br />
 ###- Status of project <br />
 
 ---
@@ -139,14 +138,15 @@ class:hide_logo
 
 ---
 
-## Introduction 
-
-
 background-image: url(slides/Kelly1.jpeg)
-background-position:cover
-background-size: 700px
+background-position:50% 70%
+background-size: 650px
 
+class: top left
+##Introduction <br> 
+.enlarge["After year in space, astronaut Scott Kelly no longer has same DNA as identical twin."]
 
+.footnote[The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight, Science, 2019]
 ---
 
 ```{r}
