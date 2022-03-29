@@ -143,8 +143,11 @@ class:hide_logo
 
 background-image: url(slides/Kelly1.jpeg)
 background-position:50% 50%
-background-size: 200px
+background-size: 100px
 
+---
+
+![](slides/Kelly1.jpeg)
 
 ---
 
