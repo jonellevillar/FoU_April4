@@ -1,8 +1,8 @@
 ---
-title: "April presentation with FoU"
+title: "Monthly Meeting of FoU"
 subtitle: "Dept. of Clinical Science II <br/> University of Bergen <br/>"  
 author: 
-  - "Jonelle Villar"
+  - "Jonelle Villar - PhD Candidate"
 date: "April 4, 2024"
 output:
   xaringan::moon_reader:
@@ -40,21 +40,113 @@ library(here)
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 
-style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF"
+dark_yellow <- "#EFBE43"
+light_yellow <- "#FDF7E9"
+gray <- "#333333"
+blue <- "#4466B0"
+
+style_duo(
+  # colors
+  primary_color = light_yellow,
+  secondary_color = dark_yellow,
+  header_color = gray,
+  text_color = gray,
+  code_inline_color = colorspace::lighten(gray),
+  text_bold_color = colorspace::lighten(gray),
+  link_color = blue,
+  title_slide_text_color = blue,
+
+  # fonts
+  header_font_google = google_font("Martel", "300", "400"),
+  text_font_google = google_font("Lato"),
+  code_font_google = google_font("Fira Mono")  
 )
 
-# fonts
-  header_font_google = google_font("Martel", "300", "400")
-  text_font_google = google_font("Lato")
-  code_font_google = google_font("Fira Mono")  
-  
+
+
+```
+
+```{r xaringanExtra, echo=FALSE, warning=FALSE}
+
+library(xaringanExtra)
+xaringanExtra::use_logo("slides/UiBlogoMED_gray_v_Eng.png",
+                        width = "250px",
+                        height = "250px",
+                        position = xaringanExtra::css_position(top = "2em", right = "2em"))
+                     
+
+xaringanExtra::use_tile_view()
+
 ```
 
 
+```{css extra.css, echo=FALSE}
+
+.small { 
+  font-size: 0.75em
+}  
+
+.bitty { 
+    font-size: 1.25em;
+}
+
+.enlarge { 
+    font-size: 1.5em;
+}
+
+.fade {
+  opacity: 0.66;
+}
+
+```
+
+---
+
+class:hide_logo
+
+###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder**<br><br>
+
+.large[.right[
+**Principal Supervisor**: Stéphanie Le Hellard, UiB<br><br>
+**Co-Supervisors**: Anne-Kristin Stavrum, UiB,<br><br>
+                  Tetyana Zayats, Broad Institute, USA<br><br>
+                  Ingrid Melle, UiO<br><br><br>
+                  July 1, 2019 - June 30, 2023
+]]              
+
+
+---
+
+###Plan for this talk <br> <br />
+###- Objectives <br />
+###- Methods <br />
+###- Status of project <br />
+
+---
+
+###**General aim of this PhD work**
+.enlarge[
+ - To identify epigenetic marks associated with psychosis and treatment effects. <br />
+]
+
+###**Specific aims**
+.bitty[
+- **Paper 1**: Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
+- **Paper 2**: What common and specific DNAm marks are seen following antipsychotic drug treatment for psychosis? <br> <br />
+- **Paper 3**: Do we see disorder specific DNAm in SCZ vs. BPD? <br> <br />
+
+]  
+
+---
+
 ## Introduction 
+
+background-image: url(slides/Kelly1.jpeg)
+background-position:50% 50%
+background-size: 200px
+
+
+---
 
 ```{r}
 #1Slide of twin astronauts
