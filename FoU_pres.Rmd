@@ -152,19 +152,6 @@ background-size: 750px
 ]  
 
 ---
-
-###Background: Epigenetics in SCZ & BPD  <br> <br> 
-
-.bitty[
-- Development: prenatal environmental factors _in utero_ <br> <br>
-- MZ twins discordant for SCZ/BPD (Dempster, _et al._, 2011) <br> <br>
-- Dynamic; many environmental exposures - trauma, adversity, life-style <br> <br>
-- Associated with brain volume, structure and function; <br> <br>
-    - social and cognitive function (Starnawska & Demontis, 2021) <br> <br>
-- DNAm changes overtime as a function of age and chronicity of the disorder 
-]
-
----
 ###Background: Characteristics of SCZ & BPD <br> <br>
 
 ###Similarities
@@ -186,8 +173,8 @@ background-size: 750px
 - Clinical differences behavioral, cognition, intelligence (Jabben,_et al._, 2010, Parellada, _et al._, 2017) <br> <br> 
 ]
 
----
 
+---
 class: top left
 ### Background: Clinical Course of SCZ and BPD
 
@@ -203,34 +190,24 @@ class: top left
 .pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
 .pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
 
----
 
 
 ---
 
+###Background: Epigenetics in SCZ & BPD  <br> <br> 
 
----
-
-
-
-
----
-## Background - Antipsychotics
-.enlarge[
-
-* Mechanism: alterations in multiple neurotransmitter systems & genes <br> <br>
- - GABA/Glutamate <br> 
- - Voltage-gated Calcium channels <br> 
- - Dopamine <br> 
- - Serotonin <br> <br> 
-* Recent work suggests implications beyond synaptic biology [1,2]
-
-    ]  
-.footnote[[1] SCZ Working Group of the PGC, medRxiv, 2022;  [2] Kaar _et al._, Neuropharmacology, 2020]        
+.bitty[
+- Development: prenatal environmental factors _in utero_ <br> <br>
+- MZ twins discordant for SCZ/BPD (Dempster, _et al._, 2011) <br> <br>
+- Dynamic; many environmental exposures - trauma, adversity, life-style <br> <br>
+- Associated with brain volume, structure and function; <br> <br>
+    - social and cognitive function (Starnawska & Demontis, 2021) <br> <br>
+- DNAm changes overtime as a function of age and chronicity of the disorder 
+]
 
 ---
 ###Project 1
-
+- Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
 ---
 ### The Data  (N = 2365)
 
@@ -258,10 +235,11 @@ class: top left
 ]
 
 ---
+### **Epigenetic oscillations**<br>
 
 
 
-
+---
 ### **Epigenetic oscillations**<br> 
 
 .pull-left[
@@ -289,7 +267,6 @@ class: top left
 
 .bitty[
 Pre-step: Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) <br> <br>
-
 ]
 
 
@@ -375,7 +352,19 @@ class: top left hide_logo
     ] 
 
 
+---
+## Background - Antipsychotics
+.enlarge[
 
+* Mechanism: alterations in multiple neurotransmitter systems & genes <br> <br>
+ - GABA/Glutamate <br> 
+ - Voltage-gated Calcium channels <br> 
+ - Dopamine <br> 
+ - Serotonin <br> <br> 
+* Recent work suggests implications beyond synaptic biology [1,2]
+
+    ]  
+.footnote[[1] SCZ Working Group of the PGC, medRxiv, 2022;  [2] Kaar _et al._, Neuropharmacology, 2020]        
 
 
 ---
