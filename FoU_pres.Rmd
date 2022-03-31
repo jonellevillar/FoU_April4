@@ -1,6 +1,6 @@
 ---
-title: "Monthly Meeting of FoU"
-subtitle: "Dept. of Clinical Science II <br/> University of Bergen <br/>"  
+title: "An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder"
+subtitle: "Monthly FoU Meeting &#x1F337; <br/>"  
 author: 
   - "Jonelle Villar - PhD Candidate"
 date: "April 4, 2024"
