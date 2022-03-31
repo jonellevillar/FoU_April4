@@ -16,3 +16,9 @@
 
 
 ```
+background-image: url(slides/DNAm2.png)
+background-position:50% 70%
+  background-size: 500px
+
+class: top left
+### **DNA methylation** <br />

@@ -234,6 +234,9 @@ class: top left
 
 Look over Noise-driving cellular heterogeneity in circadian periodicity, Yan Li
 ---
+###Project 1
+
+---
 ### The Data  (N = 2365)
 
 .bitty[
@@ -389,8 +392,17 @@ class: left, top
   - "Tissue issue" - relevance of peripheral blood (Bakulski, _et al._, 2016)
 ]
 ---
+Serum values impacted by 
 
+.enlarge[
+* Age
+* Sex
+* Polypharmacy
+* Smoking
 
+]
+
+.footnote[Ca]
 ---
 background-image: url(slides/rho_table2.png)
 background-position: 50% 70%
