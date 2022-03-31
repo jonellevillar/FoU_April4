@@ -231,9 +231,6 @@ class: top left
 .footnote[[1] SCZ Working Group of the PGC, medRxiv, 2022;  [2] Kaar _et al._, Neuropharmacology, 2020]        
 
 ---
-
-Look over Noise-driving cellular heterogeneity in circadian periodicity, Yan Li
----
 ###Project 1
 
 ---
@@ -252,9 +249,7 @@ Look over Noise-driving cellular heterogeneity in circadian periodicity, Yan Li
 
 ---
 
-
----
-##Circadian rhythms and "chrono-epigenetics" <br> <br> 
+###Circadian rhythms and "chrono-epigenetics" <br> <br> 
 
 .bitty[
 - Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
@@ -268,7 +263,7 @@ Look over Noise-driving cellular heterogeneity in circadian periodicity, Yan Li
 
 
 
----
+
 ### **Epigenetic oscillations**<br> 
 
 .pull-left[
