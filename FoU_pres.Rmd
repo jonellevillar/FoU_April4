@@ -404,7 +404,7 @@ Serum values impacted by
 
 ]
 
-.footnote[Ca]
+.footnote[Castberg _et ak._, ]
 ---
 background-image: url(slides/rho_table2.png)
 background-position: 50% 70%
