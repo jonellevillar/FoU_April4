@@ -139,23 +139,21 @@ background-size: 750px
 
 ---
 
-
-###**General aim of this PhD work**
+###General aim of this PhD work
 .enlarge[
  - To identify epigenetic marks associated with psychosis and treatment effects. <br />
 ]
 
-###**Specific aims**
+###Specific aims
 .bitty[
 - Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
 - What common and specific DNAm marks are seen following antipsychotic drug treatment for psychosis? <br> <br />
 
 ]  
 
-
 ---
 
-###Epigenetics in psychiatric disorders  <br> <br> 
+###Background: Epigenetics in SCZ & BPD  <br> <br> 
 
 .bitty[
 - Development: prenatal environmental factors _in utero_ <br> <br>
@@ -166,26 +164,8 @@ background-size: 750px
 - DNAm changes overtime as a function of age and chronicity of the disorder 
 ]
 
-
 ---
-## Background - Psychosis
-.enlarge[
-* Symptoms:
-     - Hallucinations, delusions, altered sensory perception <br> 
-     - **Loss of insight** into their condition <br> 
-     - May manifest at different stages for SCZ, BPD, MDD <br> <br />
-* Treatment:
-     - Antipsychotics (AP) alleviate or reduce symptoms <br> 
-     - Long-term use associated with distressing side effects <br> <br />
-* Biomarkers:
-     - Knowledge about pathophysiology & mechanisms of drug action incomplete
-       
-    ] 
-
-
----
-
-###Characteristics 
+###Background: Characteristics of SCZ & BPD <br> <br>
 
 ###Similarities
 
@@ -196,10 +176,20 @@ background-size: 750px
 - Dysregulated circadian rhythmicity: both a trait and state marker (Walker II, _et al._, 2020) <br> <br>
 - Medication primary form of treatment 
 ]
+
+---
+### Background: Differences <br> <br>
+
+.bitty[
+- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al._, 2014) <br> <br>
+- Two genome-wide significant SNPs (BPD & SCZ Working Group of the PGC., 2018) <br> <br>
+- Clinical differences behavioral, cognition, intelligence (Jabben,_et al._, 2010, Parellada, _et al._, 2017) <br> <br> 
+]
+
 ---
 
 class: top left
-### **Clinical Course of SCZ and BPD**
+### Background: Clinical Course of SCZ and BPD
 
 .pull-left[
 ![](slides/ClinicalCourse_adapt.png)
@@ -212,6 +202,14 @@ class: top left
 
 .pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
 .pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
+
+---
+
+
+---
+
+
+---
 
 
 
@@ -360,6 +358,24 @@ class: top left hide_logo
 ---
 ###Project 2
 ###Common and specific effects of antipsychotics associated with psychosis
+
+---
+## Background - Psychosis
+.enlarge[
+* Symptoms:
+     - Hallucinations, delusions, altered sensory perception <br> 
+     - **Loss of insight** into their condition <br> 
+     - May manifest at different stages for SCZ, BPD, MDD <br> <br />
+* Treatment:
+     - Antipsychotics (AP) alleviate or reduce symptoms <br> 
+     - Long-term use associated with distressing side effects <br> <br />
+* Biomarkers:
+     - Knowledge about pathophysiology & mechanisms of drug action incomplete
+       
+    ] 
+
+
+
 
 
 ---
