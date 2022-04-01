@@ -170,98 +170,7 @@ class: top, left
     - Immune response: disorder, smoking, medication <br><br />
     - Blood collection:  morning for  patients, morning/afternoon for controls 
   
-  
-  
   ]
----
-
-
----
-###Background: Characteristics of SCZ & BPD <br> <br>
-
-###Similarities
-
-.bitty[
-- Early age of onset ~ 20-30 years old <br> <br>
-- Heritability ~ 80% <br> <br>
-- Periods of stability and relapse <br> <br>
-- Dysregulated circadian rhythmicity: both a trait and state marker (Walker II, _et al._, 2020) <br> <br>
-- Medication primary form of treatment 
-]
-
----
-### Background: Differences <br> <br>
-
-.bitty[
-- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al._, 2014) <br> <br>
-- Two genome-wide significant SNPs (BPD & SCZ Working Group of the PGC., 2018) <br> <br>
-- Clinical differences behavioral, cognition, intelligence (Jabben,_et al._, 2010, Parellada, _et al._, 2017) <br> <br> 
-]
-
-
----
-class: top left
-### Background: Clinical Course of SCZ and BPD
-
-.pull-left[
-![](slides/ClinicalCourse_adapt.png)
-]
-
-.pull-right[
-![](slides/course_BPD.jpeg)
-]
-
-
-.pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
-.pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
-
-
-
----
-
-###Background: Epigenetics in SCZ & BPD  <br> <br> 
-
-.bitty[
-- Development: prenatal environmental factors _in utero_ <br> <br>
-- MZ twins discordant for SCZ/BPD (Dempster, _et al._, 2011) <br> <br>
-- Dynamic; many environmental exposures - trauma, adversity, life-style <br> <br>
-- Associated with brain volume, structure and function; <br> <br>
-    - social and cognitive function (Starnawska & Demontis, 2021) <br> <br>
-- DNAm changes overtime as a function of age and chronicity of the disorder 
-]
-
----
-
-### The Data  (N = 2365)
-
-.bitty[
-- TOP cohort (NORMENT): recruitment and blood samples <br> <br>
-- DNA sent in three batches to Bonn for typing <br> <br>
-- State-of-the art **Illumina EPIC 850K** microarray <br> <br>
-- First PCA showed big batch effects <br> <br>
-- QC: each batch separately and then merged the three <br> <br>
-- PCA: technical replicates in each batch clustered close to each other <br> <br>
-]
-
-.enlarge[This dataset is the starting point for all of the projects that will be described next.]
-
----
-
-###Circadian rhythms and "chrono-epigenetics" <br> <br> 
-
-.bitty[
-- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
-- Circadian rhythms are disrupted in serious mental disorders (Walker II, _et al._, 2020) <br> <br>
-- Chrono-epigenetics: <br> <br>
-    - temporal dynamics of epigenetic processes <br> <br>
-    - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
-]
-
----
-### **Epigenetic oscillations**<br>
-
-
-
 ---
 ### **Epigenetic oscillations**<br> 
 
@@ -285,6 +194,51 @@ class: top left
 
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
+
+
+
+
+---
+
+###Circadian rhythms and "chrono-epigenetics" <br> <br> 
+
+.bitty[
+- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
+- Circadian rhythms are disrupted in serious mental disorders (Walker II, _et al._, 2020) <br> <br>
+- Chrono-epigenetics: <br> <br>
+    - temporal dynamics of epigenetic processes <br> <br>
+    - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
+]
+
+
+---
+### **Epigenetic oscillations**<br>
+
+- Dysregulated circadian rhythmicity: both a trait and state marker (Walker II, _et al._, 2020) <br> <br>
+- Medication primary form of treatment
+
+---
+class: top left 
+### Oscillating CpGs
+.center[<img src=slides/osc_modC.gif width="40%">]
+
+---
+
+
+### The Data  (N = 2365)
+
+.bitty[
+- TOP cohort (NORMENT): recruitment and blood samples <br> <br>
+- DNA sent in three batches to Bonn for typing <br> <br>
+- State-of-the art **Illumina EPIC 850K** microarray <br> <br>
+- First PCA showed big batch effects <br> <br>
+- QC: each batch separately and then merged the three <br> <br>
+- PCA: technical replicates in each batch clustered close to each other <br> <br>
+]
+
+.enlarge[This dataset is the starting point for all of the projects that will be described next.]
+
+
 ---
 ###Method of analysis 
 
@@ -301,7 +255,9 @@ Pre-step: Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018)
 1. Sub-analyses: Neutrophil-to-lymphocyte ratio (NLR) and medication-free SCZ cases
 
 ]
+
 ---
+
 background-image: url(slides/2021_08_05_Histogram_n729.png)
 background-position: 50% 90% 
 background-size: 425px
@@ -360,7 +316,7 @@ class: top left hide_logo
 ###Common and specific effects of antipsychotics associated with psychosis
 
 ---
-## Background - Psychosis
+### Background - Psychosis
 .enlarge[
 * Symptoms:
      - Hallucinations, delusions, altered sensory perception <br> 
@@ -373,7 +329,6 @@ class: top left hide_logo
      - Knowledge about pathophysiology & mechanisms of drug action incomplete
        
     ] 
-
 
 ---
 ## Background - Antipsychotics
@@ -429,6 +384,37 @@ Serum values impacted by
 
 .footnote[Castberg _et ak._, ]
 ---
+class: top left
+### Background: Clinical Course of SCZ and BPD
+
+.pull-left[
+![](slides/ClinicalCourse_adapt.png)
+]
+
+.pull-right[
+![](slides/course_BPD.jpeg)
+]
+
+
+.pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
+.pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
+
+
+---
+###Methods <br> 
+
+.bitty[
+1. Select European SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
+1. Select samples with blood drawn within 4 months of interview date <br> <br>
+1. **Common**: Compare AP-use vs. non AP-use   <br> <br>
+1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
+1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺<br> <br>
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Comb-p_) <br> <br>
+1. GSEA and pathway analysis (GREAT) <br> <br>
+
+]
+
+---
 background-image: url(slides/rho_table2.png)
 background-position: 50% 70%
 background-size: 800px
@@ -444,22 +430,6 @@ background-size: 800px
 
 
 .footnote[Braun _et al._, Translational Psychiatry, 2019]
-
----
-
-###Methods <br> 
-
-.bitty[
-1. Select European SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
-1. Select samples with blood drawn within 4 months of interview date <br> <br>
-1. **Common**: Compare AP-use vs. non AP-use   <br> <br>
-1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
-1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺<br> <br>
-1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Comb-p_) <br> <br>
-1. GSEA and pathway analysis (GREAT) <br> <br>
-
-]
-
 
 ---
 
@@ -489,7 +459,7 @@ background-size: 375px
 
 
 
----
+
 
 
 
