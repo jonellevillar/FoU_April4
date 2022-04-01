@@ -1,0 +1,49 @@
+---
+title: "white blood cells"
+author: "Jonelle"
+date: "4/1/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(here)
+library(rmarkdown)
+library(ggplot2)
+
+```
+
+```{r}
+cells <- read_delim("cells.csv", delim = ";", 
++     escape_double = FALSE, trim_ws = TRUE)
+```
+
+```{r}
+cells$Cells = factor(cells$Cells, levels = c("Neutrophils","Lymphocytes", "Monocytes"), ordered = TRUE)
+```
+
+
+```{r}
+
+p <- ggplot(cells, aes(x = Cells, y = Percent, fill = Cells)) +
+  geom_bar(stat = "identity", width = 0.60) +
+  ggtitle("Lymphocyte subtypes: NK, CD4T, CD8T, Bcells", subtitle = "Percentage of total WBC in adults") +
+  labs(
+    x = " ", 
+    y = ""
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(size = 16),
+    axis.text.y = element_text(size = 14),
+    legend.position = "none") 
+p
+
+```
+
+
+
