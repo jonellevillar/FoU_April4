@@ -291,10 +291,8 @@ class: top left hide_logo
 
 ---
 ###Project 2
-.enlarge[ What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis?
-
+.enlarge[What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis?
 * Background - Psychosis
-
 * Symptoms:
      - Hallucinations, delusions, altered sensory perception <br> 
      - **Loss of insight** into their condition <br> 
