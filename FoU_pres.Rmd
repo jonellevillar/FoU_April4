@@ -103,32 +103,18 @@ xaringanExtra::use_tile_view()
 ---
 
 background-image: url(slides/Kelly1.jpeg)
-background-position:50% 70%
+background-position:75% 70%
 background-size: 650px
 
 class: top left
-##Quiz <br> 
-.enlarge["After year in space, astronaut Scott Kelly no longer has same DNA as identical twin."]
+##Et Påskenøtt 
+.enlarge["Astronaut Scott Kelly measured molecular changes after one year in space, <br> but not his twin on earth."]
 
 .footnote[The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight, Science, 2019]
 
----
-class: top left
-### **DNA methylation** <br> <br />
-
-.pull-left[
-
-![molecule](slides/chemMol.jpeg)
-] <!--end of pull left-->
-
-.pull-right[
-
-![histones](slides/dna-methylation-histones.jpeg)
-] <!--end of pull right-->
 
 
 ---
-
 class: hide_logo
 
 background-image: url(slides/Smigielski.png)
@@ -139,17 +125,47 @@ background-size: 750px
 
 ---
 
+
+class: top left
+### **DNA methylation** <br> <br />
+
+.pull-left[
+
+![molecule](slides/chemMol.jpeg)
+] 
+
+.pull-right[
+
+![histones](slides/dna-methylation-histones.jpeg)
+] 
+
+---
+background-image: url(slides/cellsformat.png)
+background-position:50% 65%
+background-size: 750px
+
+class: top, left
+### DNA derived from leukocytes
+
+---
+
 ###General aim of this PhD work
 .enlarge[
- - To identify epigenetic marks associated with psychosis and treatment effects. <br />
+ - To identify epigenetic marks (CpGs) associated with psychosis and treatment effects. <br />
 ]
 
-###Specific aims
+###Specific questions
 .bitty[
-- Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
-- What common and specific DNAm marks are seen following antipsychotic drug treatment for psychosis? <br> <br />
+- Does **time-of-blood draw** impact the association of SCZ vs. controls on cell-type proportions? <br> <br />
+- What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis? <br> <br />
 
 ]  
+
+---
+###Project 1
+- Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
+---
+
 
 ---
 ###Background: Characteristics of SCZ & BPD <br> <br>
@@ -206,9 +222,7 @@ class: top left
 ]
 
 ---
-###Project 1
-- Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
----
+
 ### The Data  (N = 2365)
 
 .bitty[
