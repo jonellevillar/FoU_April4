@@ -274,14 +274,14 @@ class: top left hide_logo
 
 ---
 ###Project 2
-###Common and specific effects of antipsychotics associated with psychosis
+.enlarge[ What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis?
 
-### Background - Psychosis
-.enlarge[
+* Background - Psychosis
+
 * Symptoms:
      - Hallucinations, delusions, altered sensory perception &lt;br&gt; 
      - **Loss of insight** into their condition &lt;br&gt; 
-     - May manifest at different stages for SCZ, BPD, MDD &lt;br&gt; &lt;br /&gt;
+     - May manifest at different stages for SCZ, BPD &lt;br&gt; &lt;br /&gt;
 * Treatment:
      - Antipsychotics (AP) alleviate or reduce symptoms &lt;br&gt; 
      - Long-term use associated with distressing side effects &lt;br&gt; &lt;br /&gt;
@@ -324,51 +324,31 @@ class: left, top
 - Early stages still: &lt;br&gt; &lt;br&gt;
   - Study design, technology, patient population, lack of replication &lt;br&gt; &lt;br&gt;
   - No uniform identification of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_) (Burghardt, _et al._, 2020, Zhou _et al_, 2021) &lt;br&gt; &lt;br&gt;
-  - Lacking studies of AP monotherapy (Burghardt, _et al._, 2020) &lt;br&gt; &lt;br&gt;
   - DNAm associated with both the pathology and treatment (Jaffe, _et al._, 2016) &lt;br&gt; &lt;br&gt;
-  - "Tissue issue" - relevance of peripheral blood (Bakulski, _et al._, 2016)
+   - Studies of AP monotherapy are lacking (Burghardt, _et al._, 2020) &lt;br&gt; &lt;br&gt;
+   - Studies of AP serum values associated with DNAm are lacking.
+ 
 ]
 ---
-Serum values impacted by 
 
-.enlarge[
-* Age
-* Sex
-* Polypharmacy
-* Smoking
-* Diet
-* Adherence 
-
-]
-
-.footnote[Castberg _et ak._, ]
----
-class: top left
-### Background: Clinical Course of SCZ and BPD
-
-.pull-left[
-![](slides/ClinicalCourse_adapt.png)
-]
-
-.pull-right[
-![](slides/course_BPD.jpeg)
-]
-
-
-.pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
-.pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
-
-
----
 ###Method of analysis &lt;br&gt; 
 
 .bitty[
-1. Select European SCZ, BPD and MDD cases being treated with antipsychotics &lt;br&gt; &lt;br&gt;
-1. **Common**: Compare AP-use vs. non AP-use   &lt;br&gt; &lt;br&gt;
-1. **Specific**: Contrast mono-therapy against non-target polytherapy.  &lt;br&gt; &lt;br&gt;
-1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺&lt;br&gt; &lt;br&gt;
-1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Comb-p_) &lt;br&gt; &lt;br&gt;
-1. GSEA and pathway analysis (GREAT) &lt;br&gt; &lt;br&gt;
+**To identify specific effects**: 
+1. Select European SCZ, BPD and MDD cases being treated with antipsychotic monotherapy &gt;br&gt; &lt;br&gt;with positive serum values (n=433) &lt;br&gt; &lt;br&gt;
+1. Model: DNAm ~ AP_serum_value + OtherMeds + Age + Sex + Smoking_score + eCells +𝜺&lt;br&gt; &lt;br&gt;
+1. Identify CpGs, associated genes, and differentially methylated regions (DMRs) &lt;br&gt; &lt;br&gt;
+1. Pathway analysis  &lt;br&gt; &lt;br&gt;
+
+**To identify common effects**: Plan to compare AP-use vs. non AP-use   &lt;br&gt; &lt;br&gt;
+
+]
+
+---
+## Preliminary results 
+
+.enlarge[
+
 
 ]
 
