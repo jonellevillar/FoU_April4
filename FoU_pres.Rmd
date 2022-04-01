@@ -167,22 +167,38 @@ class: top, left
 
 * Background <br><br />
   - SCZ is associated with altered cell-type proportions, e.g. NLR <br><br />
-    - Immune response: disorder, smoking, medication <br><br />
-    - Blood collection:  morning for  patients, morning/afternoon for controls 
-  
+    - Factors: immune alterations, smoking, medication <br><br />
+    - Disrupted circadian rhythms; both a trait and state marker (Walker II, _et al._, 2020) 
   ]
 ---
 ### Diurnal and Seasonal Cellular activity 
 
-.pull-right[
+.pull-left[
 
 image from Oh 2019
 ]
 
-.pull-left[
+.pull-right[
 
 Wyse
 ]
+
+---
+###Circadian rhythms and "chrono-epigenetics" <br> <br> 
+
+.bitty[
+- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
+- Chrono-epigenetics: <br> <br>
+    - temporal dynamics of epigenetic processes <br> <br>
+    - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
+]
+
+---
+
+class: top left 
+### Oscillating CpGs
+.center[<img src=slides/osc_modC.gif width="40%">]
+
 
 ---
 ### **Epigenetic oscillations**<br> 
@@ -206,24 +222,6 @@ Wyse
 ]
 
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
-
----
-
-###Circadian rhythms and "chrono-epigenetics" <br> <br> 
-
-.bitty[
-- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
-- Circadian rhythms are disrupted in serious mental disorders; both a trait and state marker (Walker II, _et al._, 2020) <br> <br>
-- Chrono-epigenetics: <br> <br>
-    - temporal dynamics of epigenetic processes <br> <br>
-    - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
-]
-
-
----
-class: top left 
-### Oscillating CpGs
-.center[<img src=slides/osc_modC.gif width="40%">]
 
 ---
 
@@ -283,21 +281,18 @@ class: top left hide_logo
 .bitty[
 - NLR: <br> <br>
     - significant association in all analyses (_p_ <.001); <br> <br>
-    - modest increase in mean NLR in half-day medication-free samples; i.e. <br> <br>
-      - unadjusted mean NLR (.93) vs. adjusted mean NLR  (1.14) <br> <br>
 - Medication-free cases: significant for neutrophils and CD4T adjusted/unadjusted (_p_ <.01)
 ]
 
 ###Conclusion Project 1:
 .bitty[
-**In DNAm studies, correcting for cell-type proportions will reduce epigenetic variation associated with time-of-blood draw and the circadian cycling of white blood cells.** 
+**In DNAm studies, either correct for blood collection time - or for cell-types - to reduce epigenetic variation associated with time-of-blood draw and the circadian cycling of white blood cells.** 
 ]
 
 ---
 ###Project 2
 ###Common and specific effects of antipsychotics associated with psychosis
 
----
 ### Background - Psychosis
 .enlarge[
 * Symptoms:
@@ -307,25 +302,25 @@ class: top left hide_logo
 * Treatment:
      - Antipsychotics (AP) alleviate or reduce symptoms <br> 
      - Long-term use associated with distressing side effects <br> <br />
-* Biomarkers:
-     - Knowledge about pathophysiology & mechanisms of drug action incomplete
-       
     ] 
 
 ---
-## Background - Antipsychotics
+### Background - Antipsychotics
+
 .enlarge[
 
-* Mechanism: alterations in multiple neurotransmitter systems & genes <br> <br>
+* Mechanism: alterations in multiple neurotransmitter systems & genes but our knowledge is incomplete <br> <br>
  - GABA/Glutamate <br> 
  - Voltage-gated Calcium channels <br> 
  - Dopamine <br> 
  - Serotonin <br> <br> 
-* Recent work suggests implications beyond synaptic biology [1,2]
 
     ]  
-.footnote[[1] SCZ Working Group of the PGC, medRxiv, 2022;  [2] Kaar _et al._, Neuropharmacology, 2020]        
+.footnote[SCZ Working Group of the PGC, medRxiv, 2022;  Kaar _et al._, Neuropharmacology, 2020]        
 
+
+---
+### Different classes of antipsychotics
 
 ---
 background-image: url(slides/Aringhieri2.jpg)
@@ -337,7 +332,6 @@ class: left, top
 ###Antipsychotics and corresponding receptors
 
 .footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
-
 
 ---
 
@@ -383,11 +377,10 @@ class: top left
 
 
 ---
-###Methods <br> 
+###Method of analysis <br> 
 
 .bitty[
 1. Select European SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
-1. Select samples with blood drawn within 4 months of interview date <br> <br>
 1. **Common**: Compare AP-use vs. non AP-use   <br> <br>
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
 1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺<br> <br>
@@ -395,23 +388,6 @@ class: top left
 1. GSEA and pathway analysis (GREAT) <br> <br>
 
 ]
-
----
-background-image: url(slides/rho_table2.png)
-background-position: 50% 70%
-background-size: 800px
-
-
-###Correlation blood-brain DNAm  <br> 
-
-.bitty[
-- Technological improvements:  450K vs. EPIC (850K)  
-- Blood / live brain-tissue samples:      r = 0.86 
-- CpGs identified within promoter: r = 0.92
-]
-
-
-.footnote[Braun _et al._, Translational Psychiatry, 2019]
 
 ---
 
