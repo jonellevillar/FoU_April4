@@ -440,11 +440,11 @@ background-size: 800px
 
 ---
 
-background-image: url(slides/Martens_lab_2021sm6.png)
-background-position: 12% 70%, 20% 10%
+background-image: url(slides/Martens.jpg)
+background-position: 12% 60%, 20% 10%
 background-size: 600px
 
-class: center, top
+class: top center hide_logo
 
 # Acknowledgements
 
@@ -454,8 +454,17 @@ class: center, top
 **Colleagues in The Martens Group**<br><br>
 **Dept. of Clinical Science II** <br><br><br>
 **NORMENT** <br><br><br>
+]
+---
+class: top center hide_logo
 
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]
+background-image: url(slides/354601.png)
+background-position: 50% 60%
+background-size: 550px
+
+###God Påske til alle!
+
+
 
 ---
 
