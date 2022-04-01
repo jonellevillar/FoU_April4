@@ -163,7 +163,16 @@ class: top, left
 
 ---
 ###Project 1
-- Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
+ .enlarge[Does **time-of-blood draw** impact the association of SCZ vs. controls on cell-type proportions?
+
+* Background <br><br />
+  - SCZ is associated with altered cell-type proportions, e.g. NLR <br><br />
+    - Immune response: disorder, smoking, medication <br><br />
+    - Blood collection:  morning for  patients, morning/afternoon for controls 
+  
+  
+  
+  ]
 ---
 
 
