@@ -150,22 +150,38 @@ class: top, left
 
 * Background &lt;br&gt;&lt;br /&gt;
   - SCZ is associated with altered cell-type proportions, e.g. NLR &lt;br&gt;&lt;br /&gt;
-    - Immune response: disorder, smoking, medication &lt;br&gt;&lt;br /&gt;
-    - Blood collection:  morning for  patients, morning/afternoon for controls 
-  
+    - Factors: immune alterations, smoking, medication &lt;br&gt;&lt;br /&gt;
+    - Disrupted circadian rhythms; both a trait and state marker (Walker II, _et al._, 2020) 
   ]
 ---
 ### Diurnal and Seasonal Cellular activity 
 
-.pull-right[
+.pull-left[
 
 image from Oh 2019
 ]
 
-.pull-left[
+.pull-right[
 
 Wyse
 ]
+
+---
+###Circadian rhythms and "chrono-epigenetics" &lt;br&gt; &lt;br&gt; 
+
+.bitty[
+- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) &lt;br&gt; &lt;br&gt;
+- Chrono-epigenetics: &lt;br&gt; &lt;br&gt;
+    - temporal dynamics of epigenetic processes &lt;br&gt; &lt;br&gt;
+    - oscillating CpGs contribute to epigenetic variability (Oh, E. &amp; Petronis, 2021)
+]
+
+---
+
+class: top left 
+### Oscillating CpGs
+.center[&lt;img src=slides/osc_modC.gif width="40%"&gt;]
+
 
 ---
 ### **Epigenetic oscillations**&lt;br&gt; 
@@ -189,24 +205,6 @@ Wyse
 ]
 
 .footnote[Oh, E. &amp; Petronis, Nature Reviews Genetics, 2021]
-
----
-
-###Circadian rhythms and "chrono-epigenetics" &lt;br&gt; &lt;br&gt; 
-
-.bitty[
-- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) &lt;br&gt; &lt;br&gt;
-- Circadian rhythms are disrupted in serious mental disorders; both a trait and state marker (Walker II, _et al._, 2020) &lt;br&gt; &lt;br&gt;
-- Chrono-epigenetics: &lt;br&gt; &lt;br&gt;
-    - temporal dynamics of epigenetic processes &lt;br&gt; &lt;br&gt;
-    - oscillating CpGs contribute to epigenetic variability (Oh, E. &amp; Petronis, 2021)
-]
-
-
----
-class: top left 
-### Oscillating CpGs
-.center[&lt;img src=slides/osc_modC.gif width="40%"&gt;]
 
 ---
 
@@ -266,21 +264,18 @@ class: top left hide_logo
 .bitty[
 - NLR: &lt;br&gt; &lt;br&gt;
     - significant association in all analyses (_p_ &lt;.001); &lt;br&gt; &lt;br&gt;
-    - modest increase in mean NLR in half-day medication-free samples; i.e. &lt;br&gt; &lt;br&gt;
-      - unadjusted mean NLR (.93) vs. adjusted mean NLR  (1.14) &lt;br&gt; &lt;br&gt;
 - Medication-free cases: significant for neutrophils and CD4T adjusted/unadjusted (_p_ &lt;.01)
 ]
 
 ###Conclusion Project 1:
 .bitty[
-**In DNAm studies, correcting for cell-type proportions will reduce epigenetic variation associated with time-of-blood draw and the circadian cycling of white blood cells.** 
+**In DNAm studies, either correct for blood collection time - or for cell-types - to reduce epigenetic variation associated with time-of-blood draw and the circadian cycling of white blood cells.** 
 ]
 
 ---
 ###Project 2
 ###Common and specific effects of antipsychotics associated with psychosis
 
----
 ### Background - Psychosis
 .enlarge[
 * Symptoms:
@@ -290,25 +285,25 @@ class: top left hide_logo
 * Treatment:
      - Antipsychotics (AP) alleviate or reduce symptoms &lt;br&gt; 
      - Long-term use associated with distressing side effects &lt;br&gt; &lt;br /&gt;
-* Biomarkers:
-     - Knowledge about pathophysiology &amp; mechanisms of drug action incomplete
-       
     ] 
 
 ---
-## Background - Antipsychotics
+### Background - Antipsychotics
+
 .enlarge[
 
-* Mechanism: alterations in multiple neurotransmitter systems &amp; genes &lt;br&gt; &lt;br&gt;
+* Mechanism: alterations in multiple neurotransmitter systems &amp; genes but our knowledge is incomplete &lt;br&gt; &lt;br&gt;
  - GABA/Glutamate &lt;br&gt; 
  - Voltage-gated Calcium channels &lt;br&gt; 
  - Dopamine &lt;br&gt; 
  - Serotonin &lt;br&gt; &lt;br&gt; 
-* Recent work suggests implications beyond synaptic biology [1,2]
 
     ]  
-.footnote[[1] SCZ Working Group of the PGC, medRxiv, 2022;  [2] Kaar _et al._, Neuropharmacology, 2020]        
+.footnote[SCZ Working Group of the PGC, medRxiv, 2022;  Kaar _et al._, Neuropharmacology, 2020]        
 
+
+---
+### Different classes of antipsychotics
 
 ---
 background-image: url(slides/Aringhieri2.jpg)
@@ -320,7 +315,6 @@ class: left, top
 ###Antipsychotics and corresponding receptors
 
 .footnote[Aringhieri _et al_, Pharmacology &amp; Therapeutics, 2018]
-
 
 ---
 
@@ -366,11 +360,10 @@ class: top left
 
 
 ---
-###Methods &lt;br&gt; 
+###Method of analysis &lt;br&gt; 
 
 .bitty[
 1. Select European SCZ, BPD and MDD cases being treated with antipsychotics &lt;br&gt; &lt;br&gt;
-1. Select samples with blood drawn within 4 months of interview date &lt;br&gt; &lt;br&gt;
 1. **Common**: Compare AP-use vs. non AP-use   &lt;br&gt; &lt;br&gt;
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  &lt;br&gt; &lt;br&gt;
 1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺&lt;br&gt; &lt;br&gt;
@@ -378,23 +371,6 @@ class: top left
 1. GSEA and pathway analysis (GREAT) &lt;br&gt; &lt;br&gt;
 
 ]
-
----
-background-image: url(slides/rho_table2.png)
-background-position: 50% 70%
-background-size: 800px
-
-
-###Correlation blood-brain DNAm  &lt;br&gt; 
-
-.bitty[
-- Technological improvements:  450K vs. EPIC (850K)  
-- Blood / live brain-tissue samples:      r = 0.86 
-- CpGs identified within promoter: r = 0.92
-]
-
-
-.footnote[Braun _et al._, Translational Psychiatry, 2019]
 
 ---
 
