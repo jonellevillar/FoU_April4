@@ -178,7 +178,7 @@ image from Oh 2019
 
 .pull-right[
 
-Wyse
+![](slides/Wyse.png)
 ]
 
 ---
@@ -360,23 +360,28 @@ class: left, top
 .enlarge[
 Zhou _et al_, 2021)
 ---
+class: left top
+###Factors influencing AP concentration 
 
-background-image: url(slides/Hiemke_img3.jpg)
-background-position:cover
-background-size: 800px
+ .enlarge[Serum values impacted by:
+    * Age
+    * Sex
+    * Smoking
+    * Diet
+    * Multiple medications
+    * Adherence 
+    
+  ]  
 
-###Factors influencing AP efficacy
-
-.footnote[Hiemke _et al._, Pharmacopsychiatry 2018; Castberg _et al._, Acta Psychiatr Scand, 2017]
+.footnote[Hiemke _et al._, Pharmacopsychiatry 2018; Jönsson _et al._, Ther Drug Monit, 2019]
 
 ---
 ## Aims: 
 
-.enlarge[Neuropsychiatric drugs have slightly different mechanisms of action. <br> <br/> We aim to identify differential DNA methylation associated with AP:
+.enlarge[To identify DNAm marks (CpGs) associated with AP drugs with slightly different mechanisms of action:
 
 * Common effects for AP polytherapy (n = 779) 
   
-
 * Specific effects for AP monotherapy (n = 433)
  - Aripiprazole (n = 62)
  - Olanzapine   (n = 192)
@@ -384,7 +389,6 @@ background-size: 800px
  - Risperdal    (n = 57)
 
 ]
-
 
 ---
 
