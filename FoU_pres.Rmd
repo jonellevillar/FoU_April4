@@ -173,7 +173,8 @@ class: top, left
 
 .pull-left[
 
-image from Oh 2019
+![](slides/oh2019.png)
+
 ]
 
 .pull-right[
