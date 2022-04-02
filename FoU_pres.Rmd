@@ -344,34 +344,23 @@ class: left, top
 
 ---
 
-### Pharmacoepigenetic findings in for antipsychotics  
-
+### Pharmacoepigenetic findings and status  
+ .emlarge[EWAS:  _DRD2_, _DRD3_, _HTR2A_, _SLC6A4_, _COMT_] <br> <br />
 .bitty[
-- Early stages still: <br> <br>
-  - Study design, technology, patient population, lack of replication <br> <br>
-  - No uniform identification of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_) (Burghardt, _et al._, 2020, Zhou _et al_, 2021) <br> <br>
-  - DNAm associated with both the pathology and treatment (Jaffe, _et al._, 2016) <br> <br>
-   - Studies of AP monotherapy are lacking (Burghardt, _et al._, 2020) <br> <br>
-   - Studies of AP serum values associated with DNAm are lacking.
+* Early stages still: <br> <br>
+* Variety of methods, tissues assayed, study designs, sample sizes <br> <br /> 
+* No uniform identification/reporting of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_)  <br> <br>
+* Lack of consistency in reporting medication <br> <br /> 
+* Studies of AP monotherapy are lacking  <br> <br>
+* Studies of AP serum values associated with DNAm are lacking.
  
 ]
 
----
-class: top left 
-
-###**EWAS findings for antipsychotics** <br> <br />
-
 .footnote[Burghardt _et.al_, Pharmacotherapy, 2020; Zhang & Malhotra, Current Psychiatry Reports, 2018]
 .enlarge[
-
-*  _DRD2_, _DRD3_, _HTR2A_, _SLC6A4_, _COMT_ <br> <br />
-* Issue with interpretability of drug response-related DNAm for other findings <br> <br />
-* Variety of methods, tissues assayed, study designs, sample sizes <br> <br />
-* Lack of consistency in reporting medication <br> <br />
-* Integration of genomic data & genome-wide DNAm data may be more effective     
-  ]
-
+Zhou _et al_, 2021)
 ---
+
 background-image: url(slides/Hiemke_img3.jpg)
 background-position:cover
 background-size: 800px
