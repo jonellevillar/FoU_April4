@@ -291,19 +291,31 @@ class: top left hide_logo
 
 ---
 ###Project 2
-.enlarge[What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis?
-* Background - Psychosis
-* Symptoms:
-     - Hallucinations, delusions, altered sensory perception <br> 
-     - **Loss of insight** into their condition <br> 
-     - May manifest at different stages for SCZ, BPD <br> <br />
+.enlarge[What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis?]
+
+---
+
+background-image: url(slides/clinical_course.png)
+background-position: 50% 75% 
+background-size: 775px
+
+class: top left 
+
+### Background - Psychosis
+.enlarge[Symptoms:
+* Hallucinations, delusions, altered sensory perception 
+* **Loss of insight** into their condition] 
+
+.footnote[McCutcheon, _et al._, JAMA Psychiatry, 2020; Elanjithara, _et al._, Advances in Psych Treatment, 2011]
+
+
+
+---
+### Background - Antipsychotics
 * Treatment:
      - Antipsychotics (AP) alleviate or reduce symptoms <br> 
      - Long-term use associated with distressing side effects <br> <br />
     ] 
-
----
-### Background - Antipsychotics
 
 .enlarge[
 
@@ -423,8 +435,6 @@ class: top left
 .pull-left[.enlarge[CpG: Pval = 2.25e-08 <br> <br>
 adj BH Pval = 0.017 ]
 ]
-
-
 
 ---
 background-image: url(slides/Mealer_glyco.jpg)
