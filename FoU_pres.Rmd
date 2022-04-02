@@ -448,12 +448,13 @@ DR2,***DRD2***: dopamine;cell-surface expression
 
 ---
 class: top left
-### Ongoing work
+### Ongoing work<br> <br />
 
 .enlarge[
-* Specific effects: Continue analyses with other mono therapies
+* Specific effects: Continue analyses with other mono therapies<br> <br />
 * Common effects: Compare antipsychotic therapy vs. non antipsychotic use
 ]
+
 ---
 
 background-image: url(slides/Martens2.jpg)
@@ -471,6 +472,7 @@ class: top center hide_logo
 **Dept. of Clinical Science II** <br><br><br>
 **NORMENT** <br><br><br>
 ]
+
 ---
 class: top center hide_logo
 
