@@ -347,9 +347,9 @@ class: left, top
 ### Pharmacoepigenetic findings and status  
  .enlarge[EWAS:  _DRD2_, _DRD3_, _HTR2A_, _SLC6A4_, _COMT_] <br> <br />
  
-.bitty[Challenges:
+.bitty[_Challenges_:
 * Variety of methods, tissues assayed, study designs, sample sizes <br> <br /> 
-* No uniform identification/reporting of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_)  <br> <br>
+* No uniform identification/reporting of hyper- or hypo-methylation  <br> <br>
 * Lack of consistency in reporting medication <br> <br /> 
 * Studies of AP monotherapy are lacking  <br> <br>
 * Studies of AP serum values associated with DNAm are lacking.
@@ -362,11 +362,11 @@ class: left, top
 
 ## Aims: 
 
-.enlarge[To identify DNAm marks (CpGs) associated with AP drugs with slightly different mechanisms of action:
+.enlarge[To identify DNAm marks (CpGs) associated with AP drugs with slightly different pharmacological properties:
 
-* Common effects for AP polytherapy (n = 779) 
+* Common effects of AP medications (n = 779) 
   
-* Specific effects for AP monotherapy (n = 433)
+* Specific effects of AP medications (n = 433)
  - Aripiprazole (n = 62)
  - Olanzapine   (n = 192)
  - Quetiapine   (n = 122)  
@@ -381,7 +381,7 @@ class: left, top
 .bitty[
 
 **To identify specific effects**: 
-1. Select European SCZ, BPD and MDD cases being treated with antipsychotic monotherapy >br> <br>with positive serum values (n=433) <br> <br>
+1. Select European SCZ & BPD cases being treated with antipsychotic monotherapy >br> <br> with positive serum values (n=433) <br> <br>
 1. No need to correct for time-of-blood draw as these are all cases <br> <br>
 1. Model: DNAm ~ AP_serum_value + OtherMeds + Age + Sex + Smoking_score + eCells +𝜺<br> <br>
 1. Identify CpGs, associated genes, and differentially methylated regions (DMRs) <br> <br>
@@ -396,7 +396,7 @@ class:top left
 ### Model selected for Quetiapine  <br><br>
 * .enlarge[Serum values > 0, n = 92] <br><br> <br>
 
-.enlarge[**Mod**: DNAm ~ Serum1 + Serum2 + Serum_Lithium + Age + Sex + SmokingScore + <br> <br> Mono + Neu + NK + CD4T + CD8T + Bcells] <br> <br> <br />
+.enlarge[**Mod**: DNAm ~ Serum1 + Serum2 + Serum_Lithium + Age + Sex + SmokingScore + <br> <br> Mono + Neu + NK + CD4T + CD8T + Bcells +𝜺] <br> <br> <br />
 
 ---
 background-image: url(slides/Que_n92_Mod1_manhatt.png)
