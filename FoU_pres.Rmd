@@ -285,7 +285,7 @@ To reduce epigenetic variation associated with time-of-blood draw and the circad
 
 ---
 ###Project 2 <br> <br /> 
- .enlarge[What common and specific DNAm marks (CpGs) are seen following **antipsychotic** drug treatment for psychosis?
+ .enlarge[What common and specific DNAm marks (CpGs) are seen following **antipsychotic** drug treatment for psychosis?]
 
 
 
@@ -301,7 +301,7 @@ class: top left
 
 ### Background - Psychosis
 .enlarge[Symptoms:
-* Hallucinations, delusions, disorganized behavior
+* Hallucinations, delusions, social withdrawal and apathy
 * **Loss of insight** into their condition] 
 
 .footnote[McCutcheon, _et al._, JAMA Psychiatry, 2020; Elanjithara, _et al._, Advances in Psych Treatment, 2011]
@@ -311,22 +311,15 @@ class: top left
 
 ### Background - Antipsychotics
 .enlarge[Antipsychotics (AP) first line of treatment 
-* More effective for hallucinations than apathy & social withdrawl
-* Long-term use associated with metabolic side effects <br> <br />
-* Alterations in multiple neurotransmitter systems & genes associated with both etiology and mechanism of drug action <br> <br /> 
- - Dopamine <br> <br>
- - Serotonin <br> <br> 
- - GABA/Glutamate <br> <br>
- - Voltage-gated Calcium channels <br /> 
- 
-
-    ]  
+* Dopamine dysregulation &#x02192; psychosis and mechanism of AP action <br> <br />
+* 1st generation AP: dopamine receptor antagonists <br> <br />
+* 2nd generation AP: dopamine and serotonin receptor antagonists <br> <br />
+* Side-effect profile: weight gain, sedation, metabolic disturbances <br> <br />
+]
     
-.footnote[SCZ Working Group of the PGC, medRxiv, 2022;  Kaar _et al._, Neuropharmacology, 2020]        
+.footnote[ Kaar _et al._, Neuropharmacology, 2020]        
 ---
-### Different classes of antipsychotics
 
----
 background-image: url(slides/Aringhieri2.jpg)
 background-position: 60% 75%
 background-size: 775px
