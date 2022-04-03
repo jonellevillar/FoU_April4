@@ -345,11 +345,11 @@ class: left, top
 
 ## Aims: 
 
-.enlarge[To identify DNAm marks (CpGs) associated with AP drugs with slightly different mechanisms of action:
+.enlarge[To identify DNAm marks (CpGs) associated with AP drugs with slightly different pharmacological properties:
 
-* Common effects for AP polytherapy (n = 779) 
+* Common effects of AP medications (n = 779) 
   
-* Specific effects for AP monotherapy (n = 433)
+* Specific effects of AP medications (n = 433)
  - Aripiprazole (n = 62)
  - Olanzapine   (n = 192)
  - Quetiapine   (n = 122)  
@@ -364,7 +364,8 @@ class: left, top
 .bitty[
 
 **To identify specific effects**: 
-1. Select European SCZ, BPD and MDD cases being treated with antipsychotic monotherapy &gt;br&gt; &lt;br&gt;with positive serum values (n=433) &lt;br&gt; &lt;br&gt;
+1. Select European SCZ &amp; BPD cases being treated with antipsychotic monotherapy &gt;br&gt; &lt;br&gt; with positive serum values (n=433) &lt;br&gt; &lt;br&gt;
+1. No need to correct for time-of-blood draw as these are all cases &lt;br&gt; &lt;br&gt;
 1. Model: DNAm ~ AP_serum_value + OtherMeds + Age + Sex + Smoking_score + eCells +𝜺&lt;br&gt; &lt;br&gt;
 1. Identify CpGs, associated genes, and differentially methylated regions (DMRs) &lt;br&gt; &lt;br&gt;
 1. Gene set enrichment analysis &amp; Pathway analysis  &lt;br&gt; &lt;br&gt;
