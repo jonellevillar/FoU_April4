@@ -165,7 +165,7 @@ class: top, left
 
 * Background <br><br />
   - SCZ is associated with altered cell-type proportions <br><br />
-    - Factors: immune alterations (NLR), smoking, medication <br><br />
+    - Immune alterations (NLR), smoking, medication <br><br />
     - Disrupted diurnal (circadian) rhythms 
   ]
 ---
@@ -184,7 +184,8 @@ class: left top
 ###Circadian rhythms and "chrono-epigenetics" <br> <br> 
 
 .bitty[
-- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
+- Morning light strong activator of clock genes and physiological processes 
+- Circadian clock genes co-evolved with the methyl cycle (Fustin, _et al._, 2020) <br> <br>
 - Chrono-epigenetics: <br> <br>
     - temporal dynamics of epigenetic processes <br> <br>
     - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
@@ -236,11 +237,11 @@ class: top left
 ---
 
 background-image: url(slides/2021_08_05_Histogram_n729.png)
-background-position: 50% 90% 
+background-position: 50% 45% 
 background-size: 425px
 
 class: left, top
-###Distribution of recorded blood draws (n=729)
+###Distribution of recorded blood draws (n=729) <br> <br> <br> <br> <br> <br> <br> <br /> 
 
 
 - __Model 1: Cell-type proportions ~  Case_Control + Age + Sex + Smoking_score + Methbatch + 𝜺__
