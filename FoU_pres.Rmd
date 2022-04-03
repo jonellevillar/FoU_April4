@@ -248,7 +248,7 @@ class: left top
 1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
 1. Calculated variable “hours from 07:00 baseline” <br> <br>
 1. Samples matched for age and sex <br> <br>
-1. Compared full day vs. half day <br> <br>
+1. Compared full day vs half day <br> <br>
 1. Sub-analysis: Neutrophil-to-lymphocyte ratio (NLR) <br> <br>
 1. Sub-analysis: Medication-free SCZ cases
 ]
