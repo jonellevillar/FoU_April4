@@ -54,6 +54,17 @@ class: top left
 ---
   
   
+  ### TOP Cohort: 
+  
+  
+  
+  * Common effects of AP medications (n = 779) 
+
+* Specific effects of AP medications (n = 433)
+
+]
+  
+  
   
   ###Background: Characteristics of SCZ & BPD <br> <br>
   
