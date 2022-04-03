@@ -314,10 +314,10 @@ class: top left
 * Dopamine dysregulation &#x02192; psychosis and mechanism of AP action <br> <br />
 * 1st generation AP: dopamine receptor antagonists <br> <br />
 * 2nd generation AP: dopamine and serotonin receptor antagonists <br> <br />
-* Side-effect profile: weight gain, sedation, glucose & lipid metabolism disturbances <br> <br />
+* Side-effect profile: weight gain, sedation, glucose and lipid metabolism disturbances 
 ]
     
-.footnote[ Kaar _et al._, Neuropharmacology, 2020]        
+.footnote[Kaar _et al._, Neuropharmacology, 2020]        
 ---
 
 background-image: url(slides/Aringhieri2.jpg)
