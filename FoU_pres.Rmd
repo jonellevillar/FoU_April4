@@ -161,11 +161,11 @@ class: top, left
 
 ---
 ###Project 1
- .enlarge[Does **time-of-blood draw** impact the association of SCZ vs. controls on cell-type proportions?
+ .enlarge[Does **time-of-blood draw** impact the association of SCZ vs controls on cell-type proportions?
 
 * Background <br><br />
-  - SCZ is associated with altered cell-type proportions <br><br />
-    - Immune alterations (NLR), smoking, medication <br><br />
+  - SCZ is associated with altered cell-type proportions (Hannon _et al._, 2021) <br><br />
+    - Immune cell alterations (NLR); age, gender, smoking, medication <br><br />
     - Disrupted diurnal (circadian) rhythms 
   ]
 ---
@@ -210,35 +210,13 @@ class: left top
 .bitty[
 * Gray boxes - "office hours"
 * Black curves - oscillation profiles
-* Red dots - randomly selected blood draw time 
+* Red dots - randomly selected blood-draw time 
 
 ]
 
 
 .footnote[Fig.adapted: Oh _et al._, Genome Biology, 2019]
 
----
-### **Epigenetic oscillations**<br> 
-
-.pull-left[
-![](slides/Sim_officeHours2.png)
-]
-
-.pull-right[
-
-.bitty[
-- figure b
- - blood collection time: 09-16
- - example time: 12:00 
- - black lines: oscillation profiles
- - red dots: collection time <br> <br>
-- figure c
- - CpG density at 12:00 
- ]
-
-]
-
-.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
 ---
 
@@ -309,11 +287,8 @@ To reduce epigenetic variation associated with time-of-blood draw and the circad
 ###Project 2 <br> <br /> 
  .enlarge[What common and specific DNAm marks (CpGs) are seen following **antipsychotic** drug treatment for psychosis?
 
-* Background <br><br />
-  - SCZ is associated with altered cell-type proportions <br><br />
-    - Factors: immune alterations (e.g. NLR), smoking, medication <br><br />
-    - Disrupted diurnal (circadian) rhythms 
-  ]
+
+
 
 
 ---
@@ -339,10 +314,11 @@ class: top left
 * More effective for hallucinations than apathy & social withdrawl
 * Long-term use associated with metabolic side effects <br> <br />
 * Alterations in multiple neurotransmitter systems & genes associated with both etiology and mechanism of drug action <br> <br /> 
- - Dopamine <br> 
- - GABA/Glutamate <br> 
- - Voltage-gated Calcium channels <br> 
+ - Dopamine <br> <br>
  - Serotonin <br> <br> 
+ - GABA/Glutamate <br> <br>
+ - Voltage-gated Calcium channels <br /> 
+ 
 
     ]  
     
