@@ -91,7 +91,7 @@ background-size: 650px
 
 class: top left
 ##Et Påskenøtt 
-.enlarge["Astronaut Scott Kelly measured molecular changes after one year in space, &lt;br&gt; but not his twin on earth."]
+.enlarge["Astronaut Scott Kelly had altered gene after one year in space, &lt;br&gt; but not his twin on earth."]
 
 .footnote[The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight, Science, 2019]
 
@@ -137,8 +137,8 @@ class: top, left
 
 ###Specific questions
 .bitty[
-- Does **time-of-blood draw** impact the association of SCZ vs. controls on cell-type proportions? &lt;br&gt; &lt;br /&gt;
-- What common and specific DNAm marks are seen following **antipsychotic** drug treatment for psychosis? &lt;br&gt; &lt;br /&gt;
+- Does **time-of-blood draw** impact the association of SCZ vs controls on cell-type proportions? &lt;br&gt; &lt;br /&gt;
+- What common and specific CpGs are seen following **antipsychotic** drug treatment for psychosis? &lt;br&gt; &lt;br /&gt;
 
 ]  
 
@@ -268,10 +268,7 @@ To reduce epigenetic variation associated with time-of-blood draw and the circad
 
 ---
 ###Project 2 &lt;br&gt; &lt;br /&gt; 
- .enlarge[What common and specific DNAm marks (CpGs) are seen following **antipsychotic** drug treatment for psychosis?]
-
-
-
+ .enlarge[What common and specific CpGs are seen following **antipsychotic** treatment for psychosis?]
 
 
 ---
@@ -309,16 +306,16 @@ background-size: 775px
 
 class: left, top
 
-###Antipsychotics and corresponding receptors
+###Receptor interaction with AP
 
 .footnote[Aringhieri _et al_, Pharmacology &amp; Therapeutics, 2018]
 
 ---
 
-### Pharmacoepigenetic findings and status  
- .enlarge[EWAS:  _DRD2_, _DRD3_, _HTR2A_, _SLC6A4_, _COMT_] &lt;br&gt; &lt;br /&gt;
+### EWAS findings and status  
+ .enlarge[Genes:_DRD2_, _DRD3_, _HTR2A_, _SLC6A4_, _COMT_] &lt;br&gt; &lt;br /&gt;
  
-.bitty[_Challenges_:
+.bitty[__Challenges__:
 * Variety of methods, tissues assayed, study designs, sample sizes &lt;br&gt; &lt;br /&gt; 
 * No uniform identification/reporting of hyper- or hypo-methylation  &lt;br&gt; &lt;br&gt;
 * Lack of consistency in reporting medication &lt;br&gt; &lt;br /&gt; 
@@ -330,34 +327,19 @@ class: left, top
 .footnote[Burghardt _et.al_, Pharmacotherapy, 2020; Zhang &amp; Malhotra, Current Psychiatry Reports, 2018]
 
 ---
+class: top left
+###Method of analysis 
 
-## Aims: 
-
-.enlarge[To identify DNAm marks (CpGs) associated with AP drugs with slightly different pharmacological properties:
-
-* Common effects of AP medications (n = 779) 
-  
-* Specific effects of AP medications (n = 433)
+.bitty[**To identify specific effects**: 
+1. Select European SCZ &amp; BPD cases - AP monotherapy with positive serum values (n=433) &lt;br&gt; &lt;br&gt;
  - Aripiprazole (n = 62)
  - Olanzapine   (n = 192)
  - Quetiapine   (n = 122)  
- - Risperdal    (n = 57)
-
-]
-
----
-
-###Method of analysis &lt;br&gt; 
-
-.bitty[
-
-**To identify specific effects**: 
-1. Select European SCZ &amp; BPD cases being treated with antipsychotic monotherapy &gt;br&gt; &lt;br&gt; with positive serum values (n=433) &lt;br&gt; &lt;br&gt;
+ - Risperdal    (n = 57) &lt;br&gt; &lt;br&gt;
 1. No need to correct for time-of-blood draw as these are all cases &lt;br&gt; &lt;br&gt;
-1. Model: DNAm ~ AP_serum_value + OtherMeds + Age + Sex + Smoking_score + eCells +𝜺&lt;br&gt; &lt;br&gt;
+1. Model: DNAm ~ AP_serum_value + OtherMeds + Age + Sex + Smoking_score + Cells +𝜺&lt;br&gt; &lt;br&gt;
 1. Identify CpGs, associated genes, and differentially methylated regions (DMRs) &lt;br&gt; &lt;br&gt;
-1. Gene set enrichment analysis &amp; Pathway analysis  &lt;br&gt; &lt;br&gt;
-
+1. Gene set enrichment and pathway analysis  
 ]
 
 ---
@@ -367,7 +349,7 @@ class:top left
 ### Model selected for Quetiapine  &lt;br&gt;&lt;br&gt;
 * .enlarge[Serum values &gt; 0, n = 92] &lt;br&gt;&lt;br&gt; &lt;br&gt;
 
-.enlarge[**Mod**: DNAm ~ Serum1 + Serum2 + Serum_Lithium + Age + Sex + SmokingScore + &lt;br&gt; &lt;br&gt; Mono + Neu + NK + CD4T + CD8T + Bcells +𝜺] &lt;br&gt; &lt;br&gt; &lt;br /&gt;
+.enlarge[DNAm ~ Serum1 + Serum2 + Serum_Lithium + Age + Sex + SmokingScore + Cells +𝜺]  
 
 ---
 background-image: url(slides/Que_n92_Mod1_manhatt.png)
@@ -406,11 +388,11 @@ DR2,***DRD2***: dopamine;cell-surface expression
 
 ---
 class: top left
-### Ongoing work&lt;br&gt; &lt;br /&gt;
+### Further steps &lt;br&gt; &lt;br /&gt;
 
 .enlarge[
 * Specific effects: Continue analyses with other mono therapies&lt;br&gt; &lt;br /&gt;
-* Common effects: Compare antipsychotic therapy vs. non antipsychotic use
+* Common effects: Compare antipsychotic therapy vs non antipsychotic use
 ]
 
 ---
