@@ -311,6 +311,7 @@ class: top left
 * Dopamine dysregulation &#x02192; psychosis and mechanism of AP action <br> <br />
 * 1st generation AP: dopamine receptor antagonists <br> <br />
 * 2nd generation AP: dopamine and serotonin receptor antagonists <br> <br />
+* Different dopamine binding affinities and profiles <br> <br />
 * Side-effect profile: weight gain, sedation, glucose and lipid metabolism disturbances 
 ]
     
