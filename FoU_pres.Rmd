@@ -416,21 +416,22 @@ class: top left
 ---
 
 background-image: url(slides/Martens2.jpg)
-background-position: 12% 60%, 20% 10%
+background-position: 12% 65%, 20% 10%
 background-size: 600px
 
 class: top center hide_logo
 
 # Acknowledgements
 
-.pull-right[
+.pull-right[.bitty[
 **Supervisor Stéphanie **<br><br>
 **Co-Supervisor Anne-Kristin**<br><br>
 **Colleagues in The Martens Group**<br><br>
 **Dept. of Clinical Science II** <br><br>
 **Dr Einar Martens Research Group** <br>
-**for Biological Psychiatry** <br><br><br>
+**for Biological Psychiatry** <br><br>
 **NORMENT** 
+]
 ]
 
 ---
