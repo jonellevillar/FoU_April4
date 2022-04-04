@@ -1,0 +1,457 @@
+---
+title: "An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder"
+subtitle: "Monthly FoU Meeting &#x1F337; <br/>"  
+author: 
+  - "Jonelle Villar - PhD Candidate"
+date: "April 4, 2024"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, yellow_dots.css, extra.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+
+library(fontawesome)
+library(tidyverse)
+library(xaringan)
+library(here)
+
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+
+dark_yellow <- "#EFBE43"
+light_yellow <- "#FDF7E9"
+gray <- "#333333"
+blue <- "#4466B0"
+
+style_duo(
+  # colors
+  primary_color = light_yellow,
+  secondary_color = dark_yellow,
+  header_color = gray,
+  text_color = gray,
+  code_inline_color = colorspace::lighten(gray),
+  text_bold_color = colorspace::lighten(gray),
+  link_color = blue,
+  title_slide_text_color = blue,
+
+  # fonts
+  header_font_google = google_font("Martel", "300", "400"),
+  text_font_google = google_font("Lato"),
+  code_font_google = google_font("Fira Mono")  
+)
+
+
+
+```
+
+```{r xaringanExtra, echo=FALSE, warning=FALSE}
+
+library(xaringanExtra)
+xaringanExtra::use_logo("slides/UiBlogoMED_gray_v_Eng.png",
+                        width = "250px",
+                        height = "250px",
+                        position = xaringanExtra::css_position(top = "2em", right = "2em"))
+                     
+
+xaringanExtra::use_tile_view()
+
+```
+
+
+```{css extra.css, echo=FALSE}
+
+.small { 
+  font-size: 0.75em
+}  
+
+.bitty { 
+    font-size: 1.25em;
+}
+
+.enlarge { 
+    font-size: 1.5em;
+}
+
+.fade {
+  opacity: 0.66;
+}
+
+```
+
+---
+
+background-image: url(slides/Kelly1.png)
+background-position:75% 70%
+background-size: 650px
+
+class: top left
+##Ett Påskenøtt 
+.enlarge["Astronaut Scott Kelly showed altered gene expression after one year in space, <br> but not his twin on earth."]
+
+.footnote[The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight, Science, 2019]
+
+---
+class: hide_logo
+
+background-image: url(slides/Smigielski.png)
+background-position:cover
+background-size: 700px
+
+.footnote[Smigielski, _et al_, Molecular Psychiatry, 2020]
+
+---
+
+
+class: top left
+### **DNA methylation** <br> <br />
+
+.pull-left[
+
+![molecule](slides/chemMol.jpeg)
+] 
+
+.pull-right[
+
+![histones](slides/dna-methylation-histones.jpeg)
+] 
+
+---
+background-image: url(slides/cellsformat.png)
+background-position:50% 65%
+background-size: 750px
+
+class: top, left
+### DNA derived from leukocytes
+
+---
+
+###General aim of this PhD work
+.enlarge[
+ - To identify epigenetic marks (CpGs) associated with psychosis and treatment effects. <br />
+]
+
+###Specific questions
+.bitty[
+- Does **time-of-blood draw** impact the association of SCZ vs controls on cell-type proportions? <br> <br />
+- What common and specific CpGs are seen following **antipsychotic** drug treatment for psychosis? <br> <br />
+
+]  
+
+---
+###Project 1
+ .enlarge[Does **time-of-blood draw** impact the association of SCZ vs controls on cell-type proportions?
+
+* Background <br><br />
+  - SCZ is associated with altered cell-type proportions (Hannon _et al._, 2021) <br><br />
+    - Immune cell alterations (NLR); age, gender, smoking, medication <br><br />
+    - Disrupted diurnal (circadian) rhythms 
+  ]
+---
+background-image: url(slides/diurnal_seasonal4.png)
+background-position:50% 75%
+background-size: 700px
+
+
+class: left top
+### Diurnal and seasonal cellular fluctuations 
+
+
+.footnote[adapted: Oh _et al._, Geonome Biology, 2019; Wyse _et al._ iScience, 2021]
+
+---
+###Circadian rhythms and "chrono-epigenetics" <br> <br> 
+
+.bitty[
+- Morning light strong activator of clock genes and physiological processes <br> <br>
+- Circadian clock genes co-evolved with the methyl cycle (Fustin, _et al._, 2020) <br> <br>
+- Chrono-epigenetics: <br> <br>
+    - temporal dynamics of epigenetic processes <br> <br>
+    - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
+]
+
+---
+
+class: top left 
+### Oscillating CpGs
+.center[<img src=slides/osc_modC.gif width="40%">]
+
+
+---
+
+background-image: url(slides/Oh2019cc.png)
+background-position:60% 35%
+background-size: 725px
+
+class: left top
+### **Epigenetic oscillations**<br><br> <br> <br> <br> <br>
+
+.bitty[
+* Gray boxes - "office hours"
+* Black curves - oscillation profiles
+* Red dots - randomly selected blood-draw time 
+
+]
+
+
+.footnote[Fig.adapted: Oh _et al._, Genome Biology, 2019]
+
+
+---
+
+###Method of analysis 
+
+.bitty[
+1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
+1. Calculated variable “hours from 07:00 baseline” <br> <br>
+1. Samples matched for age and sex <br> <br>
+1. Compared full day vs half day <br> <br>
+1. Sub-analysis: Neutrophil-to-lymphocyte ratio (NLR) <br> <br>
+1. Sub-analysis: Medication-free SCZ cases
+]
+
+---
+
+background-image: url(slides/2021_08_05_Histogram_n729.png)
+background-position: 50% 45% 
+background-size: 425px
+
+class: left, top
+###Distribution of recorded blood draws (n=729) <br> <br> <br> <br> <br> <br> <br> <br /> 
+
+
+- __Model 1: Cell-type proportions ~  Case_Control + Age + Sex + Smoking_score + Methbatch + 𝜺__
+- __Model 2: Cell-type proportions ~ Case_Control + Age + Sex + Smoking_score + Methbatch + Hours_from_baseline + 𝜺__
+
+---
+background-image: url(slides/2021_09_04_Table.CorrectPvalsTeal.png)
+background-position: 25% 45% 
+background-size: 400px
+
+class: top left 
+###Results
+
+.pull-right[
+
+.enlarge[__Full day (n=729)__]
+
+.bitty[
+- P-values reduced significance in Model 2
+- Effect sizes diminished in Model 2
+]
+
+.enlarge[__Half day (n=524)__]
+
+.bitty[
+- P-values: no significant change 
+- Effect sizes: no change
+]
+]
+
+---
+class: top left 
+###Results: Sub-analyses 
+
+.enlarge[
+* __NLR__: significant ass. in all trials (_p_ <.001) <br> <br>
+* __Medication-free cases__: __full-day trial__: Neu & CD4T significant ass., yet moderated effect size; __half-day trial__: Neu & CD4T remained significant, no change in effect size (_p_ <.01)
+
+###Conclusion Project 1:
+
+To reduce epigenetic variation associated with time-of-blood draw and the circadian cycling of white blood cells
+* either correct for __cell-types__ - or for __time-of-blood draw__
+]
+
+---
+###Project 2 <br> <br /> 
+ .enlarge[What common and specific CpGs are seen following **antipsychotic** treatment for psychosis?]
+
+
+---
+
+background-image: url(slides/clinical_course.png)
+background-position: 50% 75% 
+background-size: 750px
+
+class: top left 
+
+### Background - Psychosis
+.enlarge[Symptoms:
+* Hallucinations, delusions, social withdrawal and apathy
+* **Loss of insight** into their condition] 
+
+.footnote[McCutcheon, _et al._, JAMA Psychiatry, 2020; Elanjithara, _et al._, Advances in Psych Treatment, 2011]
+
+---
+class: top left 
+
+### Background - Antipsychotics
+.enlarge[Antipsychotics (AP) first line of treatment 
+* Dopamine dysregulation &#x02192; psychosis and mechanism of AP action <br> <br />
+* 1st generation AP: dopamine receptor antagonists <br> <br />
+* 2nd generation AP: dopamine and serotonin receptor antagonists <br> <br />
+* Different dopamine binding affinities and profiles <br> <br />
+* Side-effect profile: weight gain, sedation, glucose and lipid metabolism disturbances 
+]
+    
+.footnote[Kaar _et al._, Neuropharmacology, 2020]        
+---
+
+background-image: url(slides/Aringhieri2.jpg)
+background-position: 60% 75%
+background-size: 775px
+
+class: left, top
+
+###Molecular targets
+
+.footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
+
+---
+
+### EWAS findings and status  
+ .enlarge[Genes:_DRD2_, _DRD3_, _HTR2A_, _SLC6A4_, _COMT_] <br> <br />
+ 
+.bitty[__Challenges__:
+* Variety of methods, tissues assayed, study designs, sample sizes <br> <br /> 
+* No uniform identification/reporting of hyper- or hypo-methylation  <br> <br>
+* Lack of consistency in reporting medication <br> <br /> 
+* Studies of AP monotherapy are lacking  <br> <br>
+* Studies of AP serum values associated with DNAm are lacking.
+ 
+]
+
+.footnote[Burghardt _et.al_, Pharmacotherapy, 2020; Zhang & Malhotra, Current Psychiatry Reports, 2018]
+
+---
+class: top left
+###Method of analysis 
+
+.bitty[**To identify specific effects**: 
+1. Select European SCZ & BPD cases - AP monotherapy with positive serum values (n=433) <br> <br>
+ - Aripiprazole (n = 62)
+ - Olanzapine   (n = 192)
+ - Quetiapine   (n = 122)  
+ - Risperdal    (n = 57) <br> <br>
+1. No need to correct for time-of-blood draw as these are all cases <br> <br>
+1. Model: DNAm ~ AP_serum_value + OtherMeds + Age + Sex + Smoking_score + Cells +𝜺<br> <br>
+1. Identify CpGs, associated genes, and differentially methylated regions (DMRs) <br> <br>
+1. Gene set enrichment and pathway analysis  
+]
+
+---
+
+class:top left
+
+### Model selected for Quetiapine  <br><br>
+* .enlarge[Serum values > 0, n = 92] <br><br> <br>
+
+.enlarge[DNAm ~ Serum1 + Serum2 + Serum_Lithium + Age + Sex + SmokingScore + Cells +𝜺]  
+
+---
+background-image: url(slides/Que_n92_Mod1_manhatt.png)
+background-position: 75% 75%
+background-size: 500px
+
+
+class: top left
+### Preliminary results: <br> 
+
+.enlarge[**GLT8D1: Glycosyltransferase 8 Domain Containing 1**]
+
+.pull-left[.enlarge[CpG: Pval = 2.25e-08 <br> <br>
+adj BH Pval = 0.017 ]
+]
+
+---
+background-image: url(slides/Mealer_glyco.jpg)
+background-position: 20% 75%
+background-size: 325px
+
+class: left top 
+
+### Dysregulated glycosylation in SCZ 
+
+.pull-right[.enlarge[
+GluA1,***GRIA1***: glutamate; cell-surface expression <br> <br /> 
+GluN2A,***GRIN2A***: glutamate; receptor localization <br> <br />
+CaV1.2,***CACNA1C***: calcium;cell-surface expression <br> <br />
+DR2,***DRD2***: dopamine;cell-surface expression
+]
+]
+
+.pull-right[.footnote[Mealer _et al_, Molecular Psychiatry, 2020]]
+
+
+---
+class: top left
+### Further steps <br> <br />
+
+.enlarge[
+* Specific effects: Continue analyses with other mono therapies<br> <br />
+* Common effects: Compare antipsychotic therapy vs non antipsychotic use
+]
+
+---
+
+background-image: url(slides/Martens2.jpg)
+background-position: 12% 65%, 20% 10%
+background-size: 600px
+
+class: top center hide_logo
+
+# Acknowledgements
+
+.pull-right[.bitty[
+**Supervisor Stéphanie **<br><br>
+**Co-Supervisor Anne-Kristin**<br><br>
+**Colleagues in The Martens Group**<br><br>
+**Dept. of Clinical Science II** <br><br>
+**Dr Einar Martens Research Group** <br>
+**for Biological Psychiatry** <br><br>
+**NORMENT** 
+]
+]
+
+---
+class: top center hide_logo
+
+background-image: url(slides/red_egg2.png)
+background-position: 50% 75%
+background-size: 375px
+
+###God Påske til alle!
+
+
+
+
+
+
+
+
+
+
+
+
+
