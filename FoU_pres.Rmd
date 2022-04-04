@@ -428,7 +428,8 @@ class: top center hide_logo
 **Co-Supervisor Anne-Kristin**<br><br>
 **Colleagues in The Martens Group**<br><br>
 **Dept. of Clinical Science II** <br><br>
-**Dr Einar Martens Research Group for Biological Psychiatry** <br><br><br>
+**Dr Einar Martens Research Group** <br>
+**for Biological Psychiatry** <br><br><br>
 **NORMENT** 
 ]
 
