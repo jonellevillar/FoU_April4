@@ -108,7 +108,7 @@ background-size: 650px
 
 class: top left
 ##Ett Påskenøtt 
-.enlarge["Astronaut Scott Kelly showed altered gene expression after one year in space, <br> but not his twin on earth."]
+.enlarge["After one year in space, astronaut Scott Kelly showed altered gene expression <br> but not his twin on earth."]
 
 .footnote[The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight, Science, 2019]
 
