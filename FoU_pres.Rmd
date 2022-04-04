@@ -424,11 +424,12 @@ class: top center hide_logo
 # Acknowledgements
 
 .pull-right[
-**Supervisor Prof. Stéphanie Le Hellard**<br><br>
-**Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
+**Supervisor Stéphanie **<br><br>
+**Co-Supervisor Anne-Kristin**<br><br>
 **Colleagues in The Martens Group**<br><br>
-**Dept. of Clinical Science II** <br><br><br>
-**NORMENT** <br><br><br>
+**Dept. of Clinical Science II** <br><br>
+**Dr Einar Martens Research Group for Biological Psychiatry** <br><br><br>
+**NORMENT** 
 ]
 
 ---
